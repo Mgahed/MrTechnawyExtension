@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://platform.linkedin.com ">
+    <title>MrTechnawy</title>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+</head>
+<body class="jumbotron" style="width: 800px; max-width: 100%;">
+<form id="formData">
+    <input type="hidden" name="_token" value="l5puvM6Px6PQGmf0cEAEvp2Sn4hguMe7GYdI8m0H">
+    <div class="input-group">
+        <input type="search" name="search" id="course_search" class="form-control" placeholder="ابحث عن دورة" autocomplete="off">
+        <div class="input-group-append">
+            <span class="btn btn-secondary">
+                <i class="fa fa-search"></i>
+            </span>
+        </div>
+    </div>
+</form>
+<span id="courses"></span>
+<script src="./js/get-courses.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "MrTechnawy",
+  "description": "Get MrTechnawy's available free courses ----- البحث عن الدورات المجانية المتاحة",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "./images/logo-16_x_16.png",
+    "32": "./images/logo-32_x_32.png",
+    "48": "./images/logo-48_x_48.png",
+    "128": "./images/logo-128_x_128.png"
+  },
+  "action": {
+    "default_popup": "./index.html",
+    "default_icons": {
+      "16": "./images/logo-16_x_16.png",
+      "32": "./images/logo-32_x_32.png",
+      "48": "./images/logo-48_x_48.png",
+      "128": "./images/logo-128_x_128.png"
+    }
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://mrtechnawy.com/*"
+  ]
+}
